@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+body{
+  background: linear-gradient(to right, #0091ea, #673ab7);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.clock{
+  font-size: 4rem;
+  display: flex;
+  gap: 1.5rem;
+  text-align:center ;
+  text-shadow: 0.25rem 0.25rem 0.6rem rgba(255, 255, 255, 0.1)
+}
+
+#seconds{
+  min-width: 5.5rem;
+}
